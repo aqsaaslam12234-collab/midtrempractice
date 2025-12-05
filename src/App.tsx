@@ -1,18 +1,16 @@
-
-import './App.css'
-import FunctionandEvents from './components/FunctionandEvents'
+import "./App.css";
+import ObjectinArray from "./components/ObjectinArray";
 
 function App() {
- 
-
   return (
     <>
       <div>
-        <FunctionandEvents />
+        <ObjectinArray />
+        {/* <ArrandObj /> */}
+        {/* <FunctionandEvents /> */}
       </div>
-     
     </>
-  )
+  );
 }
 
-export default App
+export default App;
